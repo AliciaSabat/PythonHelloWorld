@@ -1,11 +1,5 @@
-import os.path
-import flask
-
-app = flask.Flask(__name__)
-@app.route('/name')
-
-
-def name():
-    hiname = flask.request.args.get('name')
-    return flask.jsonify("Hello " , hiname,  "!" )
-
+from flask import Flask
+app = Flask(__name__)
+@app.route("/")
+def hello():
+    return "Hello Alicia!"
