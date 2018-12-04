@@ -1,1 +1,5 @@
 flask>=0.12.3
+nltk
+pickle
+import
+os
