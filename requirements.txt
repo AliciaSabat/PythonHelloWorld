@@ -1,4 +1,2 @@
-flask==0.12.1
 pickle
 ==0.0.4 
-os
