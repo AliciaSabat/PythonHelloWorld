@@ -1,5 +1,5 @@
-nltk
-flask
+nltk==3.4
+flask==0.12.1
 pickle
-import
+==0.0.4 
 os
